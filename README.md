@@ -14,6 +14,14 @@
 8. Debugging using print statements.
 9. Python execution in VS Code (running scripts).
 10. Differences between Python 2 and 3 (brief overview).
+11. Introduction to Git and GitHub:
+      - Creating a GitHub account.
+      - Installing Git on the local system.
+12. Initializing a Git repository and pushing code to GitHub.
+13. Using GitHub collaboratively:
+      - Forking and cloning repositories.
+      - Pull requests and merging.
+      - Resolving merge conflicts.
 
 **Hands-On Tasks:**
 1. Install Python and set up VS Code on their machines.
@@ -26,6 +34,12 @@
 8. Write a script to swap two variables.
 9. Create a Python script to check Python’s version.
 10. Execute a Python file in VS Code.
+11. Initialize a Git repository and commit the scripts created so far.
+12. Push the repository to GitHub and share the link.
+13. Fork a training repository provided by the trainer and clone it locally.
+14. Push the day’s scripts to a GitHub repository.
+15. Collaborate with peers on GitHub by creating pull requests.
+16. Resolve a simulated merge conflict in a repository.
 
 ---
 
