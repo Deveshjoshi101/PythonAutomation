@@ -4,12 +4,11 @@
 
 ---
 
-### **Topics and Answers**
+### **Detailed Topics and Answers**
 
 #### 1. Installing Python and VS Code 🎨✨
 
 - **Steps to Install Python**:
-
   1. Go to [https://www.python.org/downloads/](https://www.python.org/downloads/).
   2. Download the latest version for your operating system.
   3. During installation, ensure you check the box **"Add Python to PATH"**.
@@ -33,7 +32,6 @@
 #### 3. Introduction to pip and Setting Up Virtual Environments (venv) 🛠️🌟
 
 - **Using pip**:
-
   - Verify installation by typing:
     ```
     pip --version
@@ -61,7 +59,6 @@
 #### 4. Basic Python Syntax, Indentation, and Comments 📏✏️
 
 - **Syntax**:
-
   - Python relies on indentation instead of braces:
     ```python
     if True:
@@ -84,7 +81,6 @@
 #### 5. Variables and Data Types 🎛️📊
 
 - **Variables**:
-
   - Created by assignment:
     ```python
     x = 10  # Integer
@@ -100,7 +96,6 @@
 #### 6. Arithmetic Operations and String Manipulations 🔢📚
 
 - **Operations**:
-
   ```python
   addition = 5 + 3       # 8
   subtraction = 5 - 3    # 2
@@ -161,16 +156,37 @@
       print(5 / 2)  # Output: 2.5
       ```
 
+#### 11. Setting Up a GitHub Repository for Collaboration 🌐📁
+
+- **Steps to Set Up GitHub**:
+  1. Go to [GitHub](https://github.com/) and create an account if you don't have one.
+  2. Create a new repository by clicking the **"New"** button.
+  3. Name the repository (e.g., "Python-Automation-Basics") and initialize it with a README.
+  4. Clone the repository locally using:
+     ```
+     git clone <repository_url>
+     ```
+  5. After completing tasks, push changes:
+     ```
+     git add .
+     git commit -m "Completed Day 1 tasks"
+     git push origin main
+     ```
+
+- **Fork and Contribute**:
+  - Team members can fork the repository, complete tasks, and submit pull requests.
+
+- **Documentation**:
+  - Use the README file to summarize completed tasks and include any insights or solutions.
+
 ---
 
 ### **Tasks with Answers** 🎯✅
 
 #### Task 1: Install Python and Set Up VS Code
-
 - **Solution**: Follow the above steps.
 
 #### Task 2: Create and Activate a Virtual Environment
-
 - **Solution**:
   ```
   python -m venv myenv
@@ -178,7 +194,6 @@
   ```
 
 #### Task 3: Write a Script to Calculate the Area of a Rectangle
-
 - **Script**:
   ```python
   length = float(input("Enter length: "))
@@ -188,7 +203,6 @@
   ```
 
 #### Task 4: Debug a Faulty Script
-
 - **Faulty Script**:
   ```python
   length = input("Enter length: ")
@@ -205,7 +219,6 @@
   ```
 
 #### Task 5: Create a Greeting Program
-
 - **Script**:
   ```python
   name = input("What is your name? ")
@@ -213,7 +226,6 @@
   ```
 
 #### Task 6: Add Two Numbers Taken as Input
-
 - **Script**:
   ```python
   num1 = float(input("Enter first number: "))
@@ -222,7 +234,6 @@
   ```
 
 #### Task 7: Experiment with Arithmetic Operations
-
 - **Script**:
   ```python
   a = 10
@@ -233,7 +244,6 @@
   ```
 
 #### Task 8: Write a Script to Swap Two Variables
-
 - **Script**:
   ```python
   x = 5
@@ -243,17 +253,18 @@
   ```
 
 #### Task 9: Check Python’s Version
-
 - **Command**:
   ```
   python --version
   ```
 
-#### Task 10: Execute a Python File in VS Code
+#### Task 10: Execute a Python File in VS Code  
+- **Solution**:  
+  1. Write a Python script (e.g., `hello.py`) with the content:  
+     ```python  
+     print("Hello, World!")  
+     ```  
+  2. Open it in VS Code.  
+  3. Run using the `Run` button or by pressing `F5`. Ensure Python interpreter is correctly configured.  
+ 
 
-- **Steps**:
-  1. Save the Python script (e.g., `hello.py`).
-  2. Press `F5` or run:
-     ```
-     python hello.py
-     ```
