@@ -140,8 +140,12 @@ File handling is an essential skill in Python, enabling interaction with various
 - Example:
   ```python
   with open('large_file.txt', 'r') as file:
-      while chunk := file.read(1024):  # Read in 1KB chunks
-          print(chunk)
+    while True:
+        chunk = file.read(1024)  # Read in 1KB chunks
+        if not chunk:
+            break
+        print(chunk)
+
   ```
 
 ---
